@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head id="cabeza">
+    <script src="../js/head_content.js" type="text/javascript"></script>
+    <script src="../js/body_content.js" type="text/javascript"></script>
+    <script>
+        head("Granos Campos");
+    </script>
+    <!--Slider-->
+    <link rel="stylesheet" href="css/nivo-slider.css">
+    <link rel="stylesheet" href="css/mi-slider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js" type="text/javascript"></script>
+    <script src="js/jquery.nivo.slider.js"></script>
+</head>
+<body id="test">
+    <script type="text/javascript"> 
+        $(window).on('load', function() {
+            $('#slider').nivoSlider(); 
+        }); 
+    </script>
+
+    <div class="slider-wrapper theme-mi-slider">
+        <div id="slider" class="nivoSlider">     
+            <img src="images/promos/1.jpg" alt="" title="#htmlcaption1" />    
+            <img src="images/promos/2.jpg" alt="" title="#htmlcaption2" />    
+            <img src="images/promos/3.jpg" alt="" title="#htmlcaption3" />     
+        </div> 
+    </div>
+
+    <section id="main-content" style="font-weight: 400; max-width: 900px;">
+        <br>
+        <h1 class="titu">Tipos de granos</h1>
+        <article>
+            <div class="imagenesgrap">
+                <div class="contee">
+                    <div><img src="images/beantype-arabica.webp"></div>
+                    <br><h2 class="titu">Arabica</h2><br>
+                    <p style="text-align: justify;">Considerados el champan del cafe, los granos de Arabica tienen una asombrosa riqueza aromatica que produce un sabor suave y profundo al mismo tiempo.</p>
+                </div>
+                <div class="contee">
+                    <div><img src="images/beantype-robustica.webp"></div>
+                    <br><h2 class="titu">Robusta</h2><br>
+                    <p style="text-align: justify;">La cafeina reina del cafe, los granos Robusta, contienen aproximadamente el doble del estimulante que los granos Arabica . Esto le da al cafe un sabor fuerte y ligeramente amargo.</p>
+                </div>
+                <div class="contee">
+                    <div><img src="images/beantype-kopiluwak.webp"></div>
+                    <br><h2 class="titu">Kopi Luwak</h2><br>
+                    <p style="text-align: justify;">Para obtener una experiencia gourmet poco comun, pruebe los premiados granos extraidos del estiercol de civeta indonesia. Esta criatura similar a una mangosta, se da festines con los frutos del cafe antes de defecar la semilla. El sistema digestivo procesa los frutos otorgandole asi el sabor caracteristico a los granos.</p>
+                </div>
+            </div>
+        </article>
+    </section>
+
+    <script>
+        body("Granos Campos ",0);
+    </script>
+</body>
+</html>
